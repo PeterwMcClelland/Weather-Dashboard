@@ -13,7 +13,7 @@ javascript, HTML, CSS, Bootstrap and Open Weather API.
 
 GitHub: https://github.com/PeterwMcClelland/Weather-Dashboard
 
-Deployed site: https://github.com/PeterwMcClelland/Weather-Dashboard
+Deployed site: https://peterwmcclelland.github.io/Weather-Dashboard/
 
 # Created By
 Peter McClelland 
