@@ -1,0 +1,17 @@
+
+h1 {
+    font:icon
+}
+
+header {
+    background-color: #ff9e29;
+}
+
+
+body {
+    background-color: rgb(185, 224, 255);
+}
+
+.card {
+    align-items: center;
+}

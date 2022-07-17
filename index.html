@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1 class="title display-4 container col-6">Weather Dashboard</h1>
+    </header>
+
+    <div class="search-box">
+    <div class="search card" style="width: 20rem">
+        <h2 class="search-name">Search for a City:</h2>
+        <form id="user-input" class="">
+            <input name="selected-city" id="selected-city" class="user-input" placeholder="Enter City"></input>
+            <button class="userSearch" type="submit">Search</button>
+        </form>
+        <ul class="prev-search" id="previous-search"></ul>
+    </div>
+    <div class="align-middle">
+        <div class="card">
+            <div class="current-condition">
+                <h3 class="subtitle"><span id="searched-city">Search your city!</span></h3>
+                <span id="current-date" class="date"></span>
+                </h2>
+                <div id="city-display" class="city-name"></div>
+            </div>
+            <div class="weather-input">
+                <p class="temp">Temperature:
+                    <span id="temp"></span>
+                </p>
+                <p class="humidity">Humidity:
+                    <span id="humidity"></span>
+                </p>
+                <p class="wind">Wind Speed:
+                    <span id="wind"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
